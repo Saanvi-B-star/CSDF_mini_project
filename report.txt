@@ -1,0 +1,132 @@
+================================================================================
+DIGITAL FORENSICS - IMAGE ANALYSIS REPORT
+================================================================================
+
+
+================================================================================
+TIMESTAMP
+================================================================================
+2025-10-24 23:48:43
+
+================================================================================
+BASIC INFO
+================================================================================
+
+╔══════════════════════════════════════════════════════════╗
+║              BASIC FILE INFORMATION                      ║
+╚══════════════════════════════════════════════════════════╝
+
+File Name: image.jpg
+File Path: /Users/vaibhavmashal/Downloads/Suhas Nidgundi/ImageForensics-Toolkit/image.jpg
+File Size: 1,145,947 bytes (1119.09 KB)
+
+Image Dimensions: 3024 x 4032 pixels
+Image Format: JPEG
+Image Mode: RGB
+
+Created: 2025-10-24 23:47:48
+Modified: 2025-10-24 23:47:39
+Accessed: 2025-10-24 23:48:09
+
+
+
+================================================================================
+METADATA
+================================================================================
+
+╔══════════════════════════════════════════════════════════╗
+║              EXIF METADATA INFORMATION                   ║
+╚══════════════════════════════════════════════════════════╝
+
+No EXIF metadata found in this image.
+
+
+============================================================
+DETAILED EXIF DATA (using piexif):
+============================================================
+
+
+[0th IFD]
+
+[Exif IFD]
+
+[GPS IFD]
+
+[1st IFD]
+
+
+
+================================================================================
+HASH VALUES
+================================================================================
+
+╔══════════════════════════════════════════════════════════╗
+║              CRYPTOGRAPHIC HASH VALUES                   ║
+╚══════════════════════════════════════════════════════════╝
+
+These hash values can be used to verify file integrity and
+detect any modifications to the original image.
+
+MD5:
+83e6204cdca9d3616085d2b85dc36998
+
+SHA-1:
+f4eba6718bc56523a1717955f9db1c6f1cceed58
+
+SHA-256:
+9b459d5daa3f247937fdb2b8b163c88c3a6aca5251d431841b49d17618f591aa
+
+═══════════════════════════════════════════════════════════
+
+FORENSIC NOTES:
+- Hash values are unique fingerprints of the file
+- Any modification will change these values
+- Use for chain of custody and evidence verification
+- SHA-256 is the most secure for forensic purposes
+
+
+
+================================================================================
+FORENSIC ANALYSIS
+================================================================================
+
+╔══════════════════════════════════════════════════════════╗
+║         ERROR LEVEL ANALYSIS (ELA) RESULTS               ║
+╚══════════════════════════════════════════════════════════╝
+
+ANALYSIS COMPLETED: 2025-10-24 23:48:32
+
+INTERPRETATION GUIDE:
+───────────────────────────────────────────────────────────
+
+1. UNIFORM BRIGHTNESS:
+   → Image is likely authentic
+   → Consistent compression throughout
+
+2. BRIGHT SPOTS/AREAS:
+   → Possible manipulation or editing
+   → Areas with different compression levels
+   → May indicate copy-paste or cloning
+
+3. SHARP EDGES WITH HIGH ELA:
+   → Potential inserted objects
+   → Recently added elements
+
+4. DARK AREAS:
+   → Heavily compressed regions
+   → Possibly unmodified areas
+
+═══════════════════════════════════════════════════════════
+
+FORENSIC NOTES:
+• ELA is not definitive proof of manipulation
+• Consider other factors and analysis methods
+• High quality original images may show minimal ELA
+• Heavily edited images from editing software will show more
+
+The ELA image is now displayed in the preview panel.
+Bright areas indicate potential manipulation zones.
+
+═══════════════════════════════════════════════════════════
+
+
